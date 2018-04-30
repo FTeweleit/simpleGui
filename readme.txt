@@ -1,0 +1,5 @@
+-> the scripts included in the src directory were written in eclipse using the pydev plugin
+-> to show the GUI the tkinter package is needed
+-> the script you have to run is 'gui.py'
+-> please not that there is no proper error handling for wrong inputs, i can add this if necessary
+-> hope everything is else is like you expected
