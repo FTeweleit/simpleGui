@@ -48,10 +48,10 @@ def RenderMatrix(matrix: list[list[int]]) -> None:
 
             offsetY = 0
             for i in range(value):
-                if i % 3 == 0:
+                if i and i % 3 == 0:
                     offsetY += 1
 
-                centerX = startPointX + radius + 2 * i % 3 * radius
+                centerX = startPointX + radius + 2 * (i % 3) * radius
                 centerY = startPointY + radius + 2 * offsetY * radius
                 drawDev.create_oval(centerX - radius, centerY - radius, centerX + radius, centerY + radius)
 
