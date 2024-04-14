@@ -3,7 +3,20 @@ Created on Apr 30, 2018
 
 @author: felix
 '''
+
 from listOperations import listOperations
+
+
+def GetRectangleSize(windowSizeX: int, windowSizeY: int) -> tuple[int, int]:
+    amount = len()
+            
+    xSpace = xWindowSize - 2 * xBorder - (rectangleAmount + 1) * innerBorder
+    ySpace = yWindowSize - 2 * yBorder - (rectangleAmount + 1) * innerBorder
+    xRectangleSize = xSpace // rectangleAmount
+    yRectangleSize = ySpace // rectangleAmount
+
+    return [xRectangleSize, yRectangleSize] 
+
 
 class geometryCalc(object):
     '''
